@@ -1,0 +1,59 @@
+.calendar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.topCalendarBox {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-direction: row;
+  align-items: baseline;
+  transition: all 300ms;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  font-size: x-large;
+}
+.date p {
+  margin: 0;
+}
+
+.arrow {
+  font-size: xx-large;
+}
+
+.weekBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weekTable {
+  width: 100%;
+}
+.weekTable tr {
+  text-align: center;
+}
+
+.weekDays {
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+.todayBox {
+  border-color: red;
+}
+
+.notMonthDay {
+  cursor: default;
+  border-color: grey;
+}
+
+.selectedDay {
+  color: white;
+  background-color: rgb(28, 147, 220);
+}

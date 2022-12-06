@@ -1,0 +1,14 @@
+.monthsCardBox {
+  position: relative;
+  display: none;
+  text-align: center;
+  top: -100%;
+}
+
+.monthsCardBox ul {
+  list-style: none;
+}
+
+.monthsCardBox ul li {
+  cursor: pointer;
+}
